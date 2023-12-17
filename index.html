@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilo.css" />
+    <link rel="stylesheet" href="./chartist.min.css" />
+    <title>Graficos Chart</title>
+  </head>
+  <body>
+    <h1>Resumen Estadístico de la UASD, 2023 1er y 2do semestre</h1>
+    <br />
+      <form id="form">
+          <div class=input-group>
+              <label>Est.grado</label>
+              <input type="text" id="Datos1"/>
+          </div>
+              <div class=input-group>
+              <label>Est.post-grado</label>
+              <input type="text" id="Datos2"/>
+          </div>
+          <input type="submit" value="enviar" id="enviar"/>
+      </form>
+    <h3>Población Estudiantil</h3>
+    <div id="student" style="width: 80%"></div>
+
+
+    <script src="./funcions.js"></script>
+    <script src="./chartist.min.js"></script>
+  </body>
+</html>
